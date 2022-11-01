@@ -6,7 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return s
+    return s[0]
+
 x = main("coder")
-print(x[0])
+print(x)
