@@ -6,9 +6,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if len(s)<n:
-        return False
+    if len(s)>n:
+        return s[n]
     else:
-        return s[n-1]
-x = main("python",7)
-print(x)  
+        return False
+print(main("python",7)) 
