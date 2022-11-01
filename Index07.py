@@ -6,9 +6,11 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if len(s)-1==n:
-        return s[n]
-    else:
+    if len(s) < n:
         return False
-x = main("python",5)
+    elif len(s)==n:
+        return s[n-1]
+    elif len(s)>n:
+        return s[n-1]
+x = main("pythonuz",9)
 print(x)
