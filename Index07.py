@@ -6,9 +6,9 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if len(s)==n:
-        return s[n-1]
+    if len(s)-1==n:
+        return s[n]
     else:
         return False
-x = main("python",6)
+x = main("python",5)
 print(x)
